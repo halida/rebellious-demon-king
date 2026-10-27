@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 抓取过程产物（可由脚本一键重建）----
+# 1523 个单章 TXT：内容已包含在 原文/反叛的大魔王-全书.txt
+原文/章节/
+# 193 篇作者公告：同样包含在全书 TXT 中
+语料/作者手记章节/
+*.tmp
+*.log
+抓取日志*.txt
+
+# ---- 抓取过程中的 HTML 调试快照 ----
+*_probe.html
+*_idx*.html
+*_s1.html
+*_t.html
+*_t2.html
+*_c.html
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
